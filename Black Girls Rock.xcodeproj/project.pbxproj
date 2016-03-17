@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BDEAC591C9A5BFF00A49F2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDEAC581C9A5BFF00A49F2E /* AppDelegate.swift */; };
+		2BDEAC5B1C9A5BFF00A49F2E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDEAC5A1C9A5BFF00A49F2E /* LoginViewController.swift */; };
+		2BDEAC5E1C9A5BFF00A49F2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDEAC5C1C9A5BFF00A49F2E /* Main.storyboard */; };
+		2BDEAC601C9A5BFF00A49F2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BDEAC5F1C9A5BFF00A49F2E /* Assets.xcassets */; };
+		2BDEAC631C9A5BFF00A49F2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDEAC611C9A5BFF00A49F2E /* LaunchScreen.storyboard */; };
+		2BDEAC6E1C9A5BFF00A49F2E /* Black_Girls_RockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDEAC6D1C9A5BFF00A49F2E /* Black_Girls_RockTests.swift */; };
+		2BDEAC791C9A5BFF00A49F2E /* Black_Girls_RockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDEAC781C9A5BFF00A49F2E /* Black_Girls_RockUITests.swift */; };
+		2BDEAC891C9A89A700A49F2E /* PhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDEAC881C9A89A700A49F2E /* PhotoCollectionViewController.swift */; };
+		2BDEAC8B1C9A8CB600A49F2E /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDEAC8A1C9A8CB600A49F2E /* PhotoCollectionViewCell.swift */; };
+		2BDEAC8F1C9A8FED00A49F2E /* beach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2BDEAC8C1C9A8FED00A49F2E /* beach.jpg */; };
+		2BDEAC901C9A8FED00A49F2E /* city.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2BDEAC8D1C9A8FED00A49F2E /* city.jpg */; };
+		2BDEAC911C9A8FED00A49F2E /* city1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2BDEAC8E1C9A8FED00A49F2E /* city1.jpg */; };
+		2BDEAC931C9A96CF00A49F2E /* coast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2BDEAC921C9A96CF00A49F2E /* coast.jpg */; };
+		2BDEAC951C9A9F0C00A49F2E /* SegmentHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDEAC941C9A9F0C00A49F2E /* SegmentHeaderView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BDEAC6A1C9A5BFF00A49F2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BDEAC4D1C9A5BFF00A49F2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BDEAC541C9A5BFF00A49F2E;
+			remoteInfo = "Black Girls Rock";
+		};
+		2BDEAC751C9A5BFF00A49F2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BDEAC4D1C9A5BFF00A49F2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BDEAC541C9A5BFF00A49F2E;
+			remoteInfo = "Black Girls Rock";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BDEAC551C9A5BFF00A49F2E /* Black Girls Rock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Black Girls Rock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BDEAC581C9A5BFF00A49F2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2BDEAC5A1C9A5BFF00A49F2E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2BDEAC5D1C9A5BFF00A49F2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BDEAC5F1C9A5BFF00A49F2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BDEAC621C9A5BFF00A49F2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BDEAC641C9A5BFF00A49F2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BDEAC691C9A5BFF00A49F2E /* Black Girls RockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Black Girls RockTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BDEAC6D1C9A5BFF00A49F2E /* Black_Girls_RockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Black_Girls_RockTests.swift; sourceTree = "<group>"; };
+		2BDEAC6F1C9A5BFF00A49F2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BDEAC741C9A5BFF00A49F2E /* Black Girls RockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Black Girls RockUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BDEAC781C9A5BFF00A49F2E /* Black_Girls_RockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Black_Girls_RockUITests.swift; sourceTree = "<group>"; };
+		2BDEAC7A1C9A5C0000A49F2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BDEAC881C9A89A700A49F2E /* PhotoCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewController.swift; sourceTree = "<group>"; };
+		2BDEAC8A1C9A8CB600A49F2E /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		2BDEAC8C1C9A8FED00A49F2E /* beach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beach.jpg; sourceTree = "<group>"; };
+		2BDEAC8D1C9A8FED00A49F2E /* city.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = city.jpg; sourceTree = "<group>"; };
+		2BDEAC8E1C9A8FED00A49F2E /* city1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = city1.jpg; sourceTree = "<group>"; };
+		2BDEAC921C9A96CF00A49F2E /* coast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coast.jpg; sourceTree = "<group>"; };
+		2BDEAC941C9A9F0C00A49F2E /* SegmentHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentHeaderView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BDEAC521C9A5BFF00A49F2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BDEAC661C9A5BFF00A49F2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BDEAC711C9A5BFF00A49F2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BDEAC4C1C9A5BFE00A49F2E = {
+			isa = PBXGroup;
+			children = (
+				2BDEAC571C9A5BFF00A49F2E /* Black Girls Rock */,
+				2BDEAC6C1C9A5BFF00A49F2E /* Black Girls RockTests */,
+				2BDEAC771C9A5BFF00A49F2E /* Black Girls RockUITests */,
+				2BDEAC561C9A5BFF00A49F2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BDEAC561C9A5BFF00A49F2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BDEAC551C9A5BFF00A49F2E /* Black Girls Rock.app */,
+				2BDEAC691C9A5BFF00A49F2E /* Black Girls RockTests.xctest */,
+				2BDEAC741C9A5BFF00A49F2E /* Black Girls RockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BDEAC571C9A5BFF00A49F2E /* Black Girls Rock */ = {
+			isa = PBXGroup;
+			children = (
+				2BDEAC581C9A5BFF00A49F2E /* AppDelegate.swift */,
+				2BDEAC5A1C9A5BFF00A49F2E /* LoginViewController.swift */,
+				2BDEAC941C9A9F0C00A49F2E /* SegmentHeaderView.swift */,
+				2BDEAC881C9A89A700A49F2E /* PhotoCollectionViewController.swift */,
+				2BDEAC8A1C9A8CB600A49F2E /* PhotoCollectionViewCell.swift */,
+				2BDEAC5C1C9A5BFF00A49F2E /* Main.storyboard */,
+				2BDEAC5F1C9A5BFF00A49F2E /* Assets.xcassets */,
+				2BDEAC611C9A5BFF00A49F2E /* LaunchScreen.storyboard */,
+				2BDEAC641C9A5BFF00A49F2E /* Info.plist */,
+				2BDEAC8C1C9A8FED00A49F2E /* beach.jpg */,
+				2BDEAC8D1C9A8FED00A49F2E /* city.jpg */,
+				2BDEAC8E1C9A8FED00A49F2E /* city1.jpg */,
+				2BDEAC921C9A96CF00A49F2E /* coast.jpg */,
+			);
+			path = "Black Girls Rock";
+			sourceTree = "<group>";
+		};
+		2BDEAC6C1C9A5BFF00A49F2E /* Black Girls RockTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BDEAC6D1C9A5BFF00A49F2E /* Black_Girls_RockTests.swift */,
+				2BDEAC6F1C9A5BFF00A49F2E /* Info.plist */,
+			);
+			path = "Black Girls RockTests";
+			sourceTree = "<group>";
+		};
+		2BDEAC771C9A5BFF00A49F2E /* Black Girls RockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2BDEAC781C9A5BFF00A49F2E /* Black_Girls_RockUITests.swift */,
+				2BDEAC7A1C9A5C0000A49F2E /* Info.plist */,
+			);
+			path = "Black Girls RockUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BDEAC541C9A5BFF00A49F2E /* Black Girls Rock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BDEAC7D1C9A5C0000A49F2E /* Build configuration list for PBXNativeTarget "Black Girls Rock" */;
+			buildPhases = (
+				2BDEAC511C9A5BFF00A49F2E /* Sources */,
+				2BDEAC521C9A5BFF00A49F2E /* Frameworks */,
+				2BDEAC531C9A5BFF00A49F2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Black Girls Rock";
+			productName = "Black Girls Rock";
+			productReference = 2BDEAC551C9A5BFF00A49F2E /* Black Girls Rock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BDEAC681C9A5BFF00A49F2E /* Black Girls RockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BDEAC801C9A5C0000A49F2E /* Build configuration list for PBXNativeTarget "Black Girls RockTests" */;
+			buildPhases = (
+				2BDEAC651C9A5BFF00A49F2E /* Sources */,
+				2BDEAC661C9A5BFF00A49F2E /* Frameworks */,
+				2BDEAC671C9A5BFF00A49F2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BDEAC6B1C9A5BFF00A49F2E /* PBXTargetDependency */,
+			);
+			name = "Black Girls RockTests";
+			productName = "Black Girls RockTests";
+			productReference = 2BDEAC691C9A5BFF00A49F2E /* Black Girls RockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BDEAC731C9A5BFF00A49F2E /* Black Girls RockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BDEAC831C9A5C0000A49F2E /* Build configuration list for PBXNativeTarget "Black Girls RockUITests" */;
+			buildPhases = (
+				2BDEAC701C9A5BFF00A49F2E /* Sources */,
+				2BDEAC711C9A5BFF00A49F2E /* Frameworks */,
+				2BDEAC721C9A5BFF00A49F2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BDEAC761C9A5BFF00A49F2E /* PBXTargetDependency */,
+			);
+			name = "Black Girls RockUITests";
+			productName = "Black Girls RockUITests";
+			productReference = 2BDEAC741C9A5BFF00A49F2E /* Black Girls RockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BDEAC4D1C9A5BFF00A49F2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Computer;
+				TargetAttributes = {
+					2BDEAC541C9A5BFF00A49F2E = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 8WK95HPW6T;
+					};
+					2BDEAC681C9A5BFF00A49F2E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 2BDEAC541C9A5BFF00A49F2E;
+					};
+					2BDEAC731C9A5BFF00A49F2E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 2BDEAC541C9A5BFF00A49F2E;
+					};
+				};
+			};
+			buildConfigurationList = 2BDEAC501C9A5BFF00A49F2E /* Build configuration list for PBXProject "Black Girls Rock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BDEAC4C1C9A5BFE00A49F2E;
+			productRefGroup = 2BDEAC561C9A5BFF00A49F2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BDEAC541C9A5BFF00A49F2E /* Black Girls Rock */,
+				2BDEAC681C9A5BFF00A49F2E /* Black Girls RockTests */,
+				2BDEAC731C9A5BFF00A49F2E /* Black Girls RockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BDEAC531C9A5BFF00A49F2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BDEAC911C9A8FED00A49F2E /* city1.jpg in Resources */,
+				2BDEAC631C9A5BFF00A49F2E /* LaunchScreen.storyboard in Resources */,
+				2BDEAC901C9A8FED00A49F2E /* city.jpg in Resources */,
+				2BDEAC601C9A5BFF00A49F2E /* Assets.xcassets in Resources */,
+				2BDEAC5E1C9A5BFF00A49F2E /* Main.storyboard in Resources */,
+				2BDEAC8F1C9A8FED00A49F2E /* beach.jpg in Resources */,
+				2BDEAC931C9A96CF00A49F2E /* coast.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BDEAC671C9A5BFF00A49F2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BDEAC721C9A5BFF00A49F2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BDEAC511C9A5BFF00A49F2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BDEAC5B1C9A5BFF00A49F2E /* LoginViewController.swift in Sources */,
+				2BDEAC8B1C9A8CB600A49F2E /* PhotoCollectionViewCell.swift in Sources */,
+				2BDEAC951C9A9F0C00A49F2E /* SegmentHeaderView.swift in Sources */,
+				2BDEAC891C9A89A700A49F2E /* PhotoCollectionViewController.swift in Sources */,
+				2BDEAC591C9A5BFF00A49F2E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BDEAC651C9A5BFF00A49F2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BDEAC6E1C9A5BFF00A49F2E /* Black_Girls_RockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BDEAC701C9A5BFF00A49F2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BDEAC791C9A5BFF00A49F2E /* Black_Girls_RockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BDEAC6B1C9A5BFF00A49F2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BDEAC541C9A5BFF00A49F2E /* Black Girls Rock */;
+			targetProxy = 2BDEAC6A1C9A5BFF00A49F2E /* PBXContainerItemProxy */;
+		};
+		2BDEAC761C9A5BFF00A49F2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BDEAC541C9A5BFF00A49F2E /* Black Girls Rock */;
+			targetProxy = 2BDEAC751C9A5BFF00A49F2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BDEAC5C1C9A5BFF00A49F2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BDEAC5D1C9A5BFF00A49F2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BDEAC611C9A5BFF00A49F2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BDEAC621C9A5BFF00A49F2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BDEAC7B1C9A5C0000A49F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BDEAC7C1C9A5C0000A49F2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BDEAC7E1C9A5C0000A49F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Black Girls Rock/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "comp.Black-Girls-Rock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2BDEAC7F1C9A5C0000A49F2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Black Girls Rock/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "comp.Black-Girls-Rock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2BDEAC811C9A5C0000A49F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Black Girls RockTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "comp.Black-Girls-RockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Black Girls Rock.app/Black Girls Rock";
+			};
+			name = Debug;
+		};
+		2BDEAC821C9A5C0000A49F2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Black Girls RockTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "comp.Black-Girls-RockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Black Girls Rock.app/Black Girls Rock";
+			};
+			name = Release;
+		};
+		2BDEAC841C9A5C0000A49F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Black Girls RockUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "comp.Black-Girls-RockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Black Girls Rock";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2BDEAC851C9A5C0000A49F2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Black Girls RockUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "comp.Black-Girls-RockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Black Girls Rock";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BDEAC501C9A5BFF00A49F2E /* Build configuration list for PBXProject "Black Girls Rock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BDEAC7B1C9A5C0000A49F2E /* Debug */,
+				2BDEAC7C1C9A5C0000A49F2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BDEAC7D1C9A5C0000A49F2E /* Build configuration list for PBXNativeTarget "Black Girls Rock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BDEAC7E1C9A5C0000A49F2E /* Debug */,
+				2BDEAC7F1C9A5C0000A49F2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2BDEAC801C9A5C0000A49F2E /* Build configuration list for PBXNativeTarget "Black Girls RockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BDEAC811C9A5C0000A49F2E /* Debug */,
+				2BDEAC821C9A5C0000A49F2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2BDEAC831C9A5C0000A49F2E /* Build configuration list for PBXNativeTarget "Black Girls RockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BDEAC841C9A5C0000A49F2E /* Debug */,
+				2BDEAC851C9A5C0000A49F2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BDEAC4D1C9A5BFF00A49F2E /* Project object */;
+}
